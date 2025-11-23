@@ -33,10 +33,10 @@ export default function Dream11Clone() {
       return
     }
 
-    if (totalPrice + player.price > 18000) {
+    if (totalPrice + player.price > 20000) {
       toast({
         title: "Budget Exceeded",
-        description: "Total price cannot exceed Rs 18000.",
+        description: "Total price cannot exceed Rs 20000.",
         variant: "destructive",
       })
       return
